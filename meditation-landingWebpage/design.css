@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+:root{
+    --primary-color: #01bab5;
+    --secondary-color: #fff797;
+    --primary-color-light: #9fd6bf;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+    background-image: url('https://i.gifer.com/IrF.gif');
+    background-size: cover;
+    backdrop-filter: blur(10px) ;
+    
+    height:100vh;
+    padding:0;
+
+}
+
+#doc-body{
+    position: absolute;
+    margin: 2rem 2rem;   
+}
+
+#nav{
+    border-bottom: 1px solid var(--primary-color-light);
+    padding-bottom: 1em;
+    position:sticky;
+}
+
+#nav-icon{
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+#nav-menu{
+    list-style-type: none;
+    display: inline;
+    position: absolute;
+    color: var(--primary-color);
+    left: 38%;
+}
+
+.nav-menu-item{
+    display: inline;
+    font-size: small;
+    margin: 1rem;
+}
+
+#nav-btn{
+    float: right;
+    margin-top:0.9rem;
+}
+
+#nav-btn-primary, #nav-btn-secondary, #btn-start{
+    /* display: inline-block; */
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    padding:0.5em 1em;
+    margin-top: -0.4em;
+
+    text-align: center;	
+    font-size: 1em;
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+    cursor:pointer;
+}
+
+#nav-btn-primary{
+    background-color: var(--primary-color);
+    margin-right: 0.5em;
+    color:white;   
+}
+
+#nav-btn-secondary{
+    color: var(--primary-color);
+    background-color: white;
+}
+
+
+
+#section-desc{
+    width: 40%;
+    margin-top: 8em;;
+    margin-left: 5em;
+}
+
+section{
+    margin-top: 5em;
+}
+
+#section-img{
+    display: inline;
+}
+
+#img-meditation{
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-top:-5em;
+}
+
+#section-desc-subheading{
+    margin-block-start: 0em;
+    margin-right: 10em;
+    margin-top: -1em;
+    text-align: justify;
+}
+
+#btn-start{
+    margin-top: 6em;
+    padding: 1rem 8rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+}
